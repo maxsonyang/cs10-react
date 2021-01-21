@@ -1,66 +1,49 @@
 {
     "welcome + abstraction" : {
-        "title" : "Welcome to CS10!: Weekly Summary Lecture",
-        "webcast" : null,
-        "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
-        "resources" : null
+        "title" : "Abstraction",
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessment_instance/31246/",
+        "webcast_slides" : "https://drive.google.com/file/d/16wH719pOU_VoWqudLCXR7gWgwphkrE5D/view"
     },
     "functions" : {
         "title" : "Functions",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
     "numbers + abstraction" : {
         "title" : "Abstraction + Number Systems",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
     "lists + scoping" : {
         "title" : "Lists, HOFs, and Scoping!",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
     "social implications one" : {
         "title" : "Social Implications I",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
     "social implications two" : {
         "title" : "Social Implications II",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
     "social implications three" : {
         "title" : "Social Implications III",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
     "concurrency" : {
         "title" : "Concurrency",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
 
@@ -68,32 +51,24 @@
         "title" : "Algorithms",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
     "complexity" : {
         "title" : "Algorithmic Complexity",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
     "recursion one" : {
         "title" : "Recursion I",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
     "testing + proj3" : {
         "title" : "Testing + Proj3",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
 
@@ -101,8 +76,6 @@
         "title" : "Recursion II",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
 
@@ -110,16 +83,12 @@
         "title" : "Recursion III",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
     "procedures" : {
         "title" : "Procedures as Data",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
 
@@ -127,8 +96,6 @@
         "title" : "Programming Paradigms",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
 
@@ -136,8 +103,6 @@
         "title" : "Python I: Welcome to Python",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
 
@@ -145,8 +110,6 @@
         "title" : "Python II: Data Structures",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
 
@@ -154,8 +117,6 @@
         "title" : "Python III: HOFs",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
 
@@ -163,8 +124,6 @@
         "title" : "Python IV: OOP",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
 
@@ -172,8 +131,6 @@
         "title" : "Python V: Tree Recursion and Game Theory",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
 
@@ -181,8 +138,6 @@
         "title" : "Limits of Computing",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
 
@@ -190,8 +145,6 @@
         "title" : "Human Computer Interaction",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
 
@@ -199,8 +152,6 @@
         "title" : "Artificial Intelligence",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
 
@@ -208,8 +159,6 @@
         "title" : "Alumni Panel",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
 
@@ -217,8 +166,6 @@
         "title" : "Farewell!",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     },
 
@@ -226,8 +173,6 @@
         "title" : "No Lecture",
         "webcast" : null,
         "webcast_slides" : null,
-        "live_session_recording": null,
-        "live_session_slides" : null,
         "resources" : null
     }
 }
