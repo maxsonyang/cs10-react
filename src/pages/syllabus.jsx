@@ -395,6 +395,90 @@ function Grading() {
                     </div>
                 </div>
             </div>
+            <div className="syllabus-section">
+                <div className="header">
+                    Grading Policies
+                </div>
+                <div className="syllabus-subsection">
+                    <div className="header">
+                        Slip Days and Late Policy
+                    </div>
+                    <div className="body">
+                        If you cannot turn in an assignment on time, contact your TA (and partner on partner assignments) 
+                        as early as possible. Late project submission requires approval by your TA. For each day a project 
+                        is late, one-third of the total points you would have earned on the assignment will be deducted. 
+                        You will be granted six slip days throughout the course. A slip day allows you to extend the deadline 
+                        period by one day with no penalty. For example, if you turn in an assignment due Sunday at 11:59 PM 
+                        any time before Monday at 11:59 PM, you will use one slip day. It will be applied automatically, 
+                        and if you use more than 6 throughout the semester, than we will apply them to the assignments in a 
+                        way that maximizes your overall course grade.
+                    </div>
+                </div>
+                <div className="syllabus-subsection">
+                    <div className="header">
+                        Clobber Policy
+                    </div>
+                    <div className="body">
+                        The Clobber Policy allows you to: 
+                        1. Erase your quest score and replace it with your midterm exam score, 
+                        2. Erase your midterm exam score and replace it with your final exam score, 
+                        3. Erase your quest score and replace it with your final exam score, 
+                        or 4. Erase your quest AND midterm score and replace it with your final exam score. 
+                        The clobber policy exists so that if you add the class late or had to miss the quest or midterm due 
+                        to unforeseen circumstances, you will be able to receive a grade for the exams.
+                    </div>
+                </div>
+                <div className="syllabus-subsection">
+                    <div className="header">
+                        Pass/No Pass Grading
+                    </div>
+                    <div className="body">
+                        This section only applies to students who are not taking the course for a letter grade. To receive 
+                        a Passing grade in the course a student must get at a C-. When taking the class P/NP, a student will 
+                        not receive an NP if they at minimum turn in all the course assignments and take all exams with 
+                        meaningful effort. This includes: project 1-6, lab check-offs, as well as the quest, midterm, and final.
+                    </div>
+                </div>
+                <div className="syllabus-subsection">
+                    <div className="header">
+                        Resubmission Policy
+                    </div>
+                    <div className="body">
+                        This policy is in place because CS10 has a focus on mastery learning. If you show you know and can implement 
+                        project concepts, even if it's after getting your initial grade back, then you should receive credit for it.
+                        The ideal case for using a resubmission is if you misunderstood a specification or rubric element -- here 
+                        you know how to do something, but didn’t understand exactly what you were being asked to do. Another good 
+                        case for resubmission is if you just couldn’t figure out how to code one block, then finally figured it out 
+                        after the material had a chance to sink in.
+                    </div>
+                    <div className="body">
+                        We allow for project resubmissions within a week of a project's grade being released. The regrades will 
+                        only be counted if it affects your final grade at the end of the semester.
+                    </div>
+                </div>
+                <div className="syllabus-subsection">
+                    <div className="header">
+                        EPA - Effort, Participation, Altruism
+                    </div>
+                    <div className="body">
+                        EPA is a form of extra credit that we award invisibly at the end of the semester. Essentially, every TA 
+                        will have an opportunity to award students with EPA points.
+                    </div>
+                    <div className="body">
+                        <strong> Effort </strong>  stands for the amount of work a TA has recognized that you put into the 
+                        course. This can be observed through things like office hours, labs, and more.
+                    </div>
+                    <div className="body">
+                        <strong> Participation </strong> includes being an active voice in discussions, posting and answering 
+                        questions on Piazza, and getting involved with the course in other ways.
+                    </div>
+                    <div className="body">
+                        <strong> Altruism </strong> points can be awarded for any observed efforts in helping your peers, 
+                        sharing and posting helpful resources on Piazza for your peers, and any other work you put into 
+                        furthering your peers’ understanding of the material.
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
