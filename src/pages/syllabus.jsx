@@ -407,6 +407,8 @@ function Grading() {
                         If you cannot turn in an assignment on time, contact your TA (and partner on partner assignments) 
                         as early as possible. Late project submission requires approval by your TA. For each day a project 
                         is late, one-third of the total points you would have earned on the assignment will be deducted. 
+                    </div>
+                    <div className="body">
                         You will be granted six slip days throughout the course. A slip day allows you to extend the deadline 
                         period by one day with no penalty. For example, if you turn in an assignment due Sunday at 11:59 PM 
                         any time before Monday at 11:59 PM, you will use one slip day. It will be applied automatically, 
