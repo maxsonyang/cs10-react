@@ -33,14 +33,13 @@ labs:
   label: Lab
   displayed-links:
     - link
-    - checkoff
   core-links:
     link:
       icon: computer
       label: webpage
     checkoff:
       icon: check_box
-      label: checkoff
+      label: checkoff form (for live lab exempt students)
   extra-links: []
   static-contents: 
     - key: checkOffQuestions
@@ -53,6 +52,7 @@ discussion:
   displayed-links:
     - worksheet
     - solutions
+    - live-recording
   core-links:
     worksheet:
       icon: create
@@ -65,7 +65,10 @@ discussion:
       label: slides
     recording:
       icon: videocam
-      label: recording
+      label: walkthrough
+    live-recording:
+      icon: videocam
+      label: live recording
   extra-links:
     - key: resources
       label: Extra Resources
