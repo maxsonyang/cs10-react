@@ -487,10 +487,10 @@ function Grading() {
 
 function GradingBreakdownChart() {
     let breakdownData = {
-        labels: ["Exams", "Projects", "Labs", "Reading Responses", "Attendance"],
+        labels: ["Labs", "Quest", "Midterm", "Final", "Projects", "Reading Responses", "Attendance"],
         datasets: [{
-            data: [200, 225, 30, 20, 25],
-            backgroundColor: ["#0074FD", "#38CA05", "#F3B200", "#8445C2", "#FF4B4B"]
+            data: [30, 20, 80, 100, 225, 20, 25],
+            backgroundColor: ["#cf4ad9", "#EE7C2F", "#F3B200", "#62c213", "#00a178", "#0494dc", "#8f56e3"]
         }]
     }
 
