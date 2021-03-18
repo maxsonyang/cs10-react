@@ -9,6 +9,13 @@ import "../styles/main.scss";
 
 class StaffPage extends React.Component {
 
+    constructor(props) {
+        super(props)
+        this.state = {
+            lookup: ""
+        }
+    }
+
     renderStaff() {
         let roles = staff_ui_config["roles"];
         let cards = roles.map(role => {
@@ -28,6 +35,10 @@ class StaffPage extends React.Component {
                     <h1>
                         Staff
                     </h1>
+                    {/* <input 
+                        type="text" 
+                        className="form-control staff-search" 
+                        placeholder="Search for a staff member..."></input> */}
                     <div className="staff-section">
                         { this.renderStaff() }
                     </div>

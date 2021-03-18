@@ -10,3 +10,10 @@
         flex-direction: row;
     }
 }
+
+.staff-search {
+    margin-bottom: 15px;
+    @include tablet-landscape {
+        max-width: 300px;
+    }
+}

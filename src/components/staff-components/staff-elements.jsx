@@ -72,7 +72,6 @@ export class StaffCard extends React.Component {
     }
 
     handleImageLoaded() {
-        console.log("boop")
         this.setState({loaded: true});
     }
 
@@ -85,7 +84,7 @@ export class StaffCard extends React.Component {
             <Card style={{ width: '15rem' }}>
                 <div
                     className="staff-loading-screen"
-                    style={this.state.loaded ? {"display" : "none"} : {"height" : "240px"}}>
+                    style={this.state.loaded ? {"display" : "none"} : {"height" : "0px"}}>
                     <Spinner animation="border" variant="primary" size="lg"/>
                 </div>
                 <Card.Img 
