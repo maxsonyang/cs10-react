@@ -122,10 +122,10 @@
     },
     "recursion1" : {
         "title" : "Recursion I",
-        "worksheet" : null,
-        "solutions" : null,
+        "worksheet" : "https://drive.google.com/file/d/1xzB5nUH7pGkoda15V5ucJBZKy1NSePh2/view?usp=sharing",
+        "solutions" : "https://drive.google.com/file/d/19euYiLmKTYQmU-oJ4UsLkIMplQosDFyM/view?usp=sharing",
         "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
-        "recording" : null,
+        "recording" : "https://www.youtube.com/watch?v=NXsKneMkBqQ&feature=youtu.be",
         "resources" : [
             {
                 "title" : "Recursion write up (Murtz)",
@@ -147,10 +147,11 @@
     },
     "recursion2" : {
         "title" : "Recursion II",
-        "worksheet" : null,
-        "solutions" : null,
+        "worksheet" : "https://drive.google.com/file/d/18yEQw5DJHBGRe69YmG1rlp6R4bLzo0kb/view?usp=sharing",
+        "solutions" : "https://drive.google.com/file/d/1-EjW795yALcKy55k7ftes1KiAP55PPAT/view?usp=sharing",
         "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
-        "recording" : null,
+        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MLkNzAgxY_vvFXYDDboitIS",
+        "live-recording": "https://drive.google.com/drive/folders/13Coelh2Zsdn2uEOfjlCcPkM_UOIJQkD8?usp=sharing",
         "resources" : [
             {
                 "title" : "Count Change Guide (Murtz)",
@@ -163,15 +164,20 @@
         ]
     },
     "midtermReview" : {
-        "title" : "Midterm Review",
-        "worksheet" : null,
+        "title" : "Midterm Review (Tu, W, Th)",
+        "worksheet" : "https://piazza.com/class/kjt2jqnct3u2m?cid=111",
         "solutions" : null,
         "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
+        "live-recording": "https://drive.google.com/drive/folders/11HhjWGHkt_IF9ihbNUG95u8KnTGtUYcd?usp=sharing",
         "resources" : [
             {
                 "title" : "Extra Practice Fractals",
                 "link" : "https://snap.berkeley.edu/snap/snap.html#present:Username=patriciayu7&ProjectName=Fractal%20Practice"
+            },
+            {
+                "title" : "Past Midterm Video Walkthrough",
+                "link" : "https://drive.google.com/drive/folders/1oeOUflKkbDnbsX9lbKgzMjbEgWYZ80d9?usp=sharing"
             },
             {
                 "title" : "FA19 Midterm Video Walkthrough",
@@ -185,6 +191,7 @@
         "solutions" : null,
         "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
+        "live-recording": null,
         "resources" : [
             {
                 "title" : "Kahoot!",
@@ -222,6 +229,7 @@
         "solutions" : null,
         "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
+        "live-recording": null,
         "resources" : [
             {
                 "title" : "Extra Dictionary Problems",
@@ -240,6 +248,7 @@
         "solutions" : null,
         "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
+        "live-recording": null,
         "resources" : [
             {
                 "title" : "Programiz OOP Write Up",
@@ -261,6 +270,7 @@
         "solutions" : null,
         "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
+        "live-recording": null,
         "resources" : [
             {
                 "title" : "Python Lambda Guide",
@@ -303,6 +313,7 @@
         "solutions" : null,
         "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
+        "live-recording": null,
         "resources" : [
             {
                 "title" : "FA19 Final Walkthrough Videos",
@@ -328,6 +339,7 @@
         "solutions" : null,
         "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
+        "live-recording": null,
         "resources" : [
             {
                 "title" : "[sp20] slides (Patricia)",
@@ -353,6 +365,7 @@
         "solutions" : null,
         "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
+        "live-recording": null,
         "resources" : [
             {
                 "title" : "boolean video",
@@ -379,6 +392,7 @@
         "solutions" : null,
         "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
+        "live-recording": null,
         "resources" : [
             {
                 "title" : "[sp18] slides (Matthew)",

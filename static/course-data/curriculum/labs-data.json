@@ -132,8 +132,7 @@
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/recur/recursion-trees-fractals.topic&course=cs10_fa20.html&novideo&noreading&noassignment",
         "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
-            "Reading Response Question (Required): Turkle argues that “if we never learn to be alone, we’ll only know how to be lonely”. Briefly explain how social media and communication technology relates to this claim. Connect your explanation to the key points that Turkle makes in her presentation.",
-            "Please show me your “crazy-tree” block.",
+            "Reading Response Question (Required): In the first chapter of Blown to Bits, do the authors argue that technology is inherently a good thing, a bad thing, or neither good nor bad?  Give an example from the reading that supports this claim.",
             "Why is it important that the inputs to a recursive call be smaller than the original inputs to the function?",
             "Why is it important that the sprite face the same direction at the end of a recursive function as it faced initially?",
             "What defines a recursive block? What are the two necessary “cases” that a recursive block must consider? Name and define them.",
@@ -146,6 +145,7 @@
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/recur/recursive-reporters-part1.topic&course=cs10_sfa20.html&novideo&noreading&noassignment",
         "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
+            "Reading Response Question: Turkle argues that “if we never learn to be alone, we’ll only know how to be lonely”. Briefly explain how social media and communication technology relates to this claim. Connect your explanation to the key points that Turkle makes in her presentation.", 
             "Why do we map the first item of the set in front of a recursive call of subsets _ over the rest of the list?",
             "Explain why the second version of subsets _ only makes 7 calls instead of 64. (OPTIONAL EXERCISE)",
             "Explain how the sort _ block works, how the merge _ block works, and how they work together.",
@@ -168,7 +168,6 @@
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/python/besides-blocks-welcome-parsons.topic&course=cs10_fa20.html&novideo&noreading&noassignment",
         "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
-            "Reading Response Question (Required): Name the 5 things that the author Elliot Hauser stated as most important in a student's first programming language. Explain briefly how Python excels at one of these reasons. Do you agree with his 5 most important characteristics? If yes, why? If not, what other characteristics do you think are more important?",
             "What is the difference between the \"python\", \"python file.py\", and \"python -i file.py\" terminal commands?",
             "What is the difference between the \"print\" and \"return\" python commands?",
             "Show your \"reverse_string(string)\" function. If you did it iteratively, explain the recursive solution. If you did it recursively, explain the iterative solution.",
@@ -182,6 +181,7 @@
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/python/besides-blocks-data-struct.topic&course=cs10_fa20.html&novideo&noreading&noassignment",
         "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
+            "Reading Response Question (Required): Name the 5 things that the author Elliot Hauser stated as most important in a student's first programming language. Explain briefly how Python excels at one of these reasons. Do you agree with his 5 most important characteristics? If yes, why? If not, what other characteristics do you think are more important?",
             "What is the difference between = and == in python?",
             "Show us the result of running the autograder.",
             "What is a dictionary?",
