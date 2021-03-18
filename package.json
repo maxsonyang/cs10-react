@@ -11,7 +11,7 @@
     "mobile-serve": "gatsby serve -H 0.0.0.0 -p 8000",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "gatsby serve --prefix-paths",
+    "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
@@ -57,6 +57,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cs10/sp21"
+    "url": "https://maxsonyang.github.io/cs10-react"
   }
 }
