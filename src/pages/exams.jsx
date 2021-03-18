@@ -2,6 +2,7 @@ import React from "react";
 import NavigationBar from "../components/navigation.jsx"
 import { Head } from "../components/head.jsx";
 import "../styles/main.scss";
+import "../styles/sassets/exams.scss"
 
 class Exams extends React.Component {
 
@@ -10,7 +11,7 @@ class Exams extends React.Component {
             <>
                 <Head />
                 <NavigationBar />
-                <div className="container-fluid">
+                <div className="container-fluid padded">
                     <h2>
                         Exams
                     </h2>

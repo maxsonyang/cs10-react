@@ -1,0 +1,11 @@
+@import "../main.scss";
+
+.padded {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+
+    @include tablet-landscape {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+}
