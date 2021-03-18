@@ -7,3 +7,14 @@
 .nav-link, .navbar-brand {
     color: white !important;
 }
+
+.logo {
+    background-color: white;
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    img {
+        max-width: 30px;
+    }
+}

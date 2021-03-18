@@ -99,3 +99,4 @@ Quotes need to be used if you have any kind of text with `": "` or `" -<string>"
 Congrats, you did most of the work required in setting up... essentially the entire site. Assuming there are no changes required
 from the interface, things like the front page and semester calendar should be working already. Next up are probably the syllabus
 or staff page.
+

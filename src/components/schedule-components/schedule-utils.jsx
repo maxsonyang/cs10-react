@@ -19,10 +19,10 @@ export function getContentNumbers(contentType, dict) {
     var count = 1;
     if (contentType == "projects") {
         count = 0;
-        }
+    }
     if (contentType == "dans-oh") {
         count = 2;
-        }
+    }
     for (let week = 1; week <= weeks; week++) {
         let week_content = content_structure[week][contentType]
         let source_content = getContentSource(contentType, dict)

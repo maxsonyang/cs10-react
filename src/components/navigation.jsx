@@ -4,12 +4,16 @@ import "../styles/main.scss";
 import "../styles/sassets/navigation-bar.scss";
 import navbar_config from "../ui-config/navbar.config.yaml";
 import { Navbar, Nav } from "react-bootstrap";
+import logo from "../imgs/bjc-logo.png"
 
 class NavigationBar extends React.Component {
 
     render() {
         return (
             <Navbar className="bg-blue" variant="dark" expand="lg">
+                <Navbar.Brand className="logo">
+                    <img src={logo} alt="Logo"/>
+                </Navbar.Brand>
                 <Link className="navbar-brand" to="/">
                     CS10: The Beauty and Joy of Computing
                 </Link>
