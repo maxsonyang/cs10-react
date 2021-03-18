@@ -155,31 +155,31 @@ function BioModal({
             </OverlayTrigger>
             <Modal show={showModal} onHide={toggleModal} size="lg" centered>
                 <Modal.Header className="content-modal-header">
-                    <Modal.Title>
-                        <div className="bio-modal-header">
-                            <img src={imgPath} alt={`a picture of ${name} should go here.`}/>
-                            <div className="general-info">
-                                <div className="name">
-                                    {name}
-                                </div>
-                                <div className="role">
-                                    {role}
-                                </div>
-                                <div className="email">
-                                    {email}
-                                </div>
-                                <div className="additional-info">
-                                    {year}
-                                </div>
-                                <div className="additional-info">
-                                    {major}
-                                </div>
-                                <div className="additional-info">
-                                    {subheader}
-                                </div>
+                    <button type="button" className="close" onClick={toggleModal}><span aria-hidden="true">&times;</span>
+                    </button>
+                    <div className="bio-modal-header">
+                        <img src={imgPath} alt={`a picture of ${name} should go here.`}/>
+                        <div className="general-info">
+                            <div className="name">
+                                {name}
+                            </div>
+                            <div className="role">
+                                {role}
+                            </div>
+                            <div className="email">
+                                {email}
+                            </div>
+                            <div className="additional-info">
+                                {year}
+                            </div>
+                            <div className="additional-info">
+                                {major}
+                            </div>
+                            <div className="additional-info">
+                                {subheader}
                             </div>
                         </div>
-                    </Modal.Title>
+                    </div>
                 </Modal.Header>
                 <Modal.Body>
                     {renderBioResponses(responses)}

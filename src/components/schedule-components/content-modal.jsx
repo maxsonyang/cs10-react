@@ -54,6 +54,8 @@ export class ContentModal extends React.Component {
 
                 <Modal show={this.state.show} onHide={this.hide} size="lg" centered>
                     <Modal.Header className="content-modal-header">
+                        <button type="button" class="close" onClick={this.hide}><span aria-hidden="true">&times;</span>
+                        </button>
                         <Modal.Title>
                             {this.props.header}
                         </Modal.Title>
