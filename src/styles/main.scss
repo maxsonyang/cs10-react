@@ -39,9 +39,9 @@ $screen-laptop: 1200px;
 
 @mixin flex {
   -webkit-flex: 1 0 auto;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  display: -webkit-flex;
 }
 
 .loading-screen {

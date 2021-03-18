@@ -4,13 +4,14 @@
     @include flex();
     flex-direction: column;
     width: 100%;
-
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 
     @include tablet-landscape {
         margin-left: 50px;
         padding-left: 50px;
+        overflow-y: auto;
     }
-    overflow-y: auto;
 }
 
 .internal-resource-view {
@@ -24,13 +25,14 @@
 .resource-component {
     @include flex();
     flex-direction: column;
+    overflow: scroll;
 
     @include tablet-landscape {
+        overflow: hidden;
         flex-direction: row;
     }
 
     height: 81vh;
     width: 100%;
-    overflow: hidden;
     transition: width 250ms linear;
 }
