@@ -13,14 +13,14 @@
   projects:
     - survey
   readings: []
+  dans-oh: []
 
 2:
   lectures:
     - functions
     - numbers + abstraction
   live-sessions:
-    - functions
-    - numbers + abstraction
+    - functions + abstraction
   labs:
     - byob
     - conditionals
@@ -30,6 +30,8 @@
     - wordmatch
   readings:
     - "code-stars"
+  dans-oh:
+    - week2
 
 3:
   lectures:
@@ -37,7 +39,6 @@
     - social implications one
   live-sessions:
     - lists + scoping
-    - social implications 1
   labs:
     - abstraction
     - lists
@@ -48,12 +49,15 @@
     - mastermind
   readings:
     - "intro-to-abstraction"
+  dans-oh:
+    - week3
 
 4:
   lectures:
     - algorithms
     - complexity
-  live-sessions: []
+  live-sessions:
+    - algorithms + complexity
   labs:
     - algorithms
     - complexity
@@ -63,11 +67,14 @@
     - mastermind
   readings:
     - algorithms
+  dans-oh:
+    - week4
 
 5:
   lectures:
     - testing + proj3
-  live-sessions: []
+  live-sessions:
+    - testing + proj3
   labs:
     - testing
   discussion:
@@ -77,12 +84,15 @@
     - 2048
   readings:
     - "algo-complexity"
+  dans-oh:
+    - week5
 
 6:
   lectures:
     - recursion one
     - recursion two
-  live-sessions: []
+  live-sessions:
+    - recursion
   labs:
     - boards
     - fractals
@@ -92,11 +102,15 @@
     - 2048
   readings:
     - "blown-to-bits"
+  dans-oh:
+    - week6
+
 7:
   lectures:
     - social implications two
     - recursion three
-  live-sessions: []
+  live-sessions:
+    - recursion iii + social implications
   labs:
     - recursiveReporters
   discussion:
@@ -105,12 +119,15 @@
     - 2048
   readings:
     - "connected-but-alone"
+  dans-oh:
+    - week7
 
 8:
   lectures:
     - procedures
     - paradigms
-  live-sessions: []
+  live-sessions:
+    - mt week
   labs:
     - functionsAsData
   discussion:
@@ -118,12 +135,15 @@
   projects:
     - 2048
   readings: []
+  dans-oh:
+    - week8
 
 9:
   lectures:
     - python one
     - python two
-  live-sessions: []
+  live-sessions:
+    - python intro
   labs:
     - pythonIntro
     - dataStructures
@@ -132,17 +152,19 @@
   projects:
     - explore
   readings:
-    - "why-python-is-lit" # Note this should be changed
+    - why-python-is-lit
+  dans-oh:
+    - week9
 
 10:
-  lectures:
-    - no lecture
+  lectures: []
   live-sessions: []
-  labs:
-    - no section
+  labs: []
   discussion: []
   projects: []
   readings: []
+  dans-oh:
+    - week10
 
 11:
   lectures:
@@ -158,6 +180,8 @@
     - pytris
   readings:
     - alphastar
+  dans-oh:
+    - week11
 
 12:
   lectures:
@@ -174,6 +198,8 @@
     - final
   readings:
     - "data-science"
+  dans-oh:
+    - week12
   
 13:
   lectures:
@@ -188,6 +214,8 @@
     - final
   readings:
     - "women-in-coding"
+  dans-oh:
+    - week13
 
 14:
   lectures:
@@ -200,6 +228,8 @@
   projects:
     - final
   readings: []
+  dans-oh:
+    - week14
 
 15:
   lectures:
@@ -212,6 +242,8 @@
   projects:
     - final
   readings: []
+  dans-oh:
+    - week15
 
 16:
   lectures: []
@@ -220,3 +252,4 @@
   discussion: []
   projects: []
   readings: []
+  dans-oh: []

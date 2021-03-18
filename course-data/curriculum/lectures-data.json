@@ -1,177 +1,173 @@
 {
     "welcome + abstraction" : {
         "title" : "Abstraction",
-        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessment_instance/31246/",
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
         "webcast_slides" : "https://drive.google.com/file/d/16wH719pOU_VoWqudLCXR7gWgwphkrE5D/view"
     },
     "functions" : {
         "title" : "Functions",
-        "webcast" : null,
-        "webcast_slides" : null,
-        "resources" : null
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
+        "webcast_slides" : "https://drive.google.com/file/d/15MOydPyuJA1JJmpbVy5B64bATFsYF__o/view"
     },
     "numbers + abstraction" : {
         "title" : "Abstraction + Number Systems",
-        "webcast" : null,
-        "webcast_slides" : null,
-        "resources" : null
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
+        "webcast_slides" : "https://drive.google.com/file/d/1IGekrvrZdX8twFgIGz2lK699xd6vhH43/view"
     },
     "lists + scoping" : {
         "title" : "Lists, HOFs, and Scoping!",
-        "webcast" : null,
-        "webcast_slides" : null,
-        "resources" : null
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
+        "webcast_slides" : "https://drive.google.com/file/d/1KLIFqR8oOmh-rg1XiwylJy01prprhgnj/view?usp=sharing"
     },
     "social implications one" : {
         "title" : "Social Implications I",
-        "webcast" : null,
-        "webcast_slides" : null,
-        "resources" : null
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
+        "webcast_slides" : "https://drive.google.com/file/d/0B4EVGAjXEk4seGk1a3FRcm5NVnc/view"
     },
     "social implications two" : {
         "title" : "Social Implications II",
-        "webcast" : null,
-        "webcast_slides" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
+        "webcast_slides" : "https://drive.google.com/file/d/1IrXyFqlzsKe_n5wRMMcEpoGGlsesZYaI/view?usp=sharing",
         "resources" : null
     },
     "social implications three" : {
         "title" : "Social Implications III",
-        "webcast" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
         "webcast_slides" : null,
         "resources" : null
     },
     "concurrency" : {
         "title" : "Concurrency",
-        "webcast" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
         "webcast_slides" : null,
         "resources" : null
     },
 
     "algorithms" : {
         "title" : "Algorithms",
-        "webcast" : null,
-        "webcast_slides" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
+        "webcast_slides" : "https://drive.google.com/file/d/0B4EVGAjXEk4sQlZ2RzlZd25jQU0/view",
         "resources" : null
     },
     "complexity" : {
         "title" : "Algorithmic Complexity",
-        "webcast" : null,
-        "webcast_slides" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
+        "webcast_slides" : "https://drive.google.com/file/d/0B4EVGAjXEk4sMHRCZ2dtdlBuNlE/view",
         "resources" : null
     },
     "recursion one" : {
         "title" : "Recursion I",
-        "webcast" : null,
-        "webcast_slides" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
+        "webcast_slides" : "https://drive.google.com/file/d/0B4EVGAjXEk4sQnE4ZE1uZVoxam8/view",
         "resources" : null
     },
     "testing + proj3" : {
         "title" : "Testing + Proj3",
-        "webcast" : null,
-        "webcast_slides" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
+        "webcast_slides" : "https://drive.google.com/file/d/1hxyankyXJWUHFuE7ZB83vhvZCL7hOlgj/view",
         "resources" : null
     },
 
     "recursion two" : {
         "title" : "Recursion II",
-        "webcast" : null,
-        "webcast_slides" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
+        "webcast_slides" : "https://drive.google.com/file/d/1vwk7lhVjAEaRkVBKKdKmVnutmdP1tfcY/view?usp=sharing",
         "resources" : null
     },
 
     "recursion three" : {
         "title" : "Recursion III",
-        "webcast" : null,
-        "webcast_slides" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
+        "webcast_slides" : "https://drive.google.com/file/d/1e7iuMC4kCWK1oPngbTlzJhUiNTa6UZrf/view?usp=sharing",
         "resources" : null
     },
     "procedures" : {
         "title" : "Procedures as Data",
-        "webcast" : null,
-        "webcast_slides" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
+        "webcast_slides" : "https://drive.google.com/file/d/1juksQwfVvoczmxSTkpEzjSO_veir1LaH/view?usp=sharing",
         "resources" : null
     },
 
     "paradigms" : {
         "title" : "Programming Paradigms",
-        "webcast" : null,
-        "webcast_slides" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
+        "webcast_slides" : "https://drive.google.com/file/d/0B4EVGAjXEk4sZk4wMjdoVnlTNEk/view",
         "resources" : null
     },
 
     "python one" : {
         "title" : "Python I: Welcome to Python",
-        "webcast" : null,
-        "webcast_slides" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
+        "webcast_slides" : "https://drive.google.com/file/d/1ul38i2ubK-ikVk57KWtzrb_KK8IS-Kkc/view?usp=sharing",
         "resources" : null
     },
 
     "python two" : {
         "title" : "Python II: Data Structures",
-        "webcast" : null,
-        "webcast_slides" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
+        "webcast_slides" : "https://drive.google.com/file/d/1NsGHa7YWZ0cLQZhqIDwjwsbCVfgukMA_/view?usp=sharing",
         "resources" : null
     },
 
     "python three" : {
         "title" : "Python III: HOFs",
-        "webcast" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
         "webcast_slides" : null,
         "resources" : null
     },
 
     "python four" : {
         "title" : "Python IV: OOP",
-        "webcast" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
         "webcast_slides" : null,
         "resources" : null
     },
 
     "python five" : {
         "title" : "Python V: Tree Recursion and Game Theory",
-        "webcast" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
         "webcast_slides" : null,
         "resources" : null
     },
 
     "limits" : {
         "title" : "Limits of Computing",
-        "webcast" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
         "webcast_slides" : null,
         "resources" : null
     },
 
     "hci" : {
         "title" : "Human Computer Interaction",
-        "webcast" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
         "webcast_slides" : null,
         "resources" : null
     },
 
     "ai" : {
         "title" : "Artificial Intelligence",
-        "webcast" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
         "webcast_slides" : null,
         "resources" : null
     },
 
     "alumni" : {
         "title" : "Alumni Panel",
-        "webcast" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
         "webcast_slides" : null,
         "resources" : null
     },
 
     "farewell" : {
         "title" : "Farewell!",
-        "webcast" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
         "webcast_slides" : null,
         "resources" : null
     },
 
     "no lecture" : {
         "title" : "No Lecture",
-        "webcast" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
         "webcast_slides" : null,
         "resources" : null
     }
