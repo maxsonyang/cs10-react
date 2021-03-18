@@ -15,21 +15,21 @@
 // Main Content Components
 
 .resource-category {
-    display: flex;
+    @include flex();
     flex-direction: column;
     margin-bottom: 40px;
     width: 100%;
     flex-wrap: wrap;
 
     .sections {
-        display: flex;
+        @include flex();
         flex-direction: column;
         flex-wrap: wrap;
     }
 }
 
 .resource-section {
-    display: flex;
+    @include flex();
     flex-direction: column;
     padding-top: 20px;
 

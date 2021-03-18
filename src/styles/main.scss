@@ -38,10 +38,10 @@ $screen-laptop: 1200px;
 }
 
 @mixin flex {
-  display: -webkit-flex;
+  -webkit-flex: 1 0 auto;
   display: -ms-flexbox;
-  display: -webkit-box;
   display: flex;
+  display: -webkit-flex;
 }
 
 .loading-screen {
