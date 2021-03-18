@@ -1,3 +1,5 @@
+@import "../main.scss";
+
 .bg-blue {
     margin-bottom: 2%;
     background-color: #0d6efd !important;
@@ -6,15 +8,44 @@
 
 .nav-link, .navbar-brand {
     color: white !important;
+    font-size: 16px !important;
+    flex-direction: row !important;
+
+    @include tablet-landscape {
+        font-size: 16px !important;
+    }
+}
+
+.navbar-brand {
+    margin-right: 4px !important;
+
+    @include tablet-landscape {
+        margin-right: 16px !important;
+    }
 }
 
 .logo {
     background-color: white;
-    min-width: 50px;
-    min-height: 50px;
     border-radius: 100%;
     text-align: center;
+
+    min-width: 35px;
+    min-height: 35px;
+
+    margin-right: 4px !important;
+    margin-bottom: 4px !important;
+
     img {
-        max-width: 30px;
+        max-width: 20px;
+    }
+
+    @include tablet-landscape {
+        min-width: 45px;
+        min-height: 45px;
+        margin-right: 16px !important;
+        margin-bottom: none !important;
+        img {
+            max-width: 27px;
+        }
     }
 }
