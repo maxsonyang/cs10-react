@@ -381,6 +381,15 @@ function Grading() {
                 <div classname="body">
                     {GradingBreakdownChart()}
                 </div>
+                
+            </div>
+            <div className="syllabus-section">
+                <div className="header">
+                    Project Points Breakdown
+                </div>
+                <div classname="body">
+                    {ProjectBreakdown()}
+                </div>
             </div>
             <div className="syllabus-section">
                 <div className="header">
@@ -506,6 +515,60 @@ function GradingBreakdownChart() {
             data={breakdownData} 
             options={chartOptions}
         />
+    )
+}
+
+function ProjectBreakdown() {
+
+    const points = [
+        {
+            proj: "Project 1",
+            points: 10
+        },
+        {
+            proj: "Project 2",
+            points: 20
+        },
+        {
+            proj: "Project 3",
+            points: 30
+        },
+        {
+            proj: "Project 4",
+            points: 40
+        },
+        {
+            proj: "Project 5",
+            points: 50
+        },
+        {
+            proj: "Project 6",
+            points: 75
+        }
+    ]
+
+    return (
+        <div id="grading-bins">
+            <ListGroup variant="flush">
+                {points.map(binData => ProjectPointsItem(binData))}
+            </ListGroup>
+        </div>
+    )
+
+}
+
+function ProjectPointsItem(binData) {
+    const project = binData["proj"];
+    const points = binData["points"];
+    return (
+        <ListGroup.Item>
+            <div className="grading-bin">
+                {project}
+                <div className="grade-range">
+                    {`${points}`}
+                </div>
+            </div>
+        </ListGroup.Item>
     )
 }
 
