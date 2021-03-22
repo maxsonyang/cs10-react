@@ -34,6 +34,8 @@ roles:
       - aaronlee
       - aditisharma
       - alaynamatthews
+      - alinaasifshaikh
+      - alvaroortiz
       - angelrodriguez
       - annaclary
       - anthonylu
@@ -44,7 +46,9 @@ roles:
       - danaipapaevgeniou
       - francisgeng
       - gautamanand
+      - gracecao
       - hyeonakim
+      - jakeson
       - jamescheng
       - jasonhuang
       - jaspershine
@@ -63,6 +67,7 @@ roles:
       - matthewcorralejo
       - mirandaaochi
       - monicacortes
+      - nancyji
       - nhuvu
       - paolanoun
       - pranavchhabra
@@ -71,14 +76,20 @@ roles:
       - richeldhaliwal
       - rivkahbar-or
       - saadtootla
+      - sagejeon
       - sarahtaylor
       - saruulamarbayar
       - yonsookim
       - sofiabourche
       - sophiebrazdefaria
+      - suminpark
       - surajrajan
+      - tomshang
+      - tylermarino
       - vedanshmalhotra
       - yishuchao
+      - zeningong
+      - zeynephaney
 
 card-config:
   subheader: "pronouns"

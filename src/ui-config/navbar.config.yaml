@@ -15,3 +15,6 @@
 
 - label: Exams
   path: /exams
+
+- label: "❗ University Health Services"
+  path: "https://uhs.berkeley.edu/counseling"
