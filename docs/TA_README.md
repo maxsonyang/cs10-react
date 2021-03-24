@@ -81,4 +81,4 @@ Congrats! The website is now officially deployed to Github Pages!
 
 ### Next Steps
 
-Now you'll probably need to configure the website. Check out this section in the docs to get going with that.
+Now you'll probably need to configure the website. Check out this [section](./website_configuration.md) in the docs to get going with that.
