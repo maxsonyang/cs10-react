@@ -1,10 +1,13 @@
 # Course Data Configuration
 
-## What is this?
-
 Course data is the information for the upcoming semester. Specifically, it captures information on when things are happening
 and what resources should be provided. You'll need to make sure all this information is correctly organized before
 deploying the website. Fill out the course-data stuff first, then move onto content-structure.
+
+## Sets up
+
+* Semester Calendar
+* Weekly Schedule
 
 ## Stuff you'll be working with
 
@@ -93,10 +96,8 @@ You'll notice that categories are mapped to an empty array `[]`. This can be use
 ### Quotes
 
 Quotes need to be used if you have any kind of text with `": "` or `" -<string>"`, as this gets misinterpreted by yaml.
+If you're really not sure, just use quotes anyways.
 
 ## Once you're done
 
-Congrats, you did most of the work required in setting up... essentially the entire site. Assuming there are no changes required
-from the interface, things like the front page and semester calendar should be working already. Next up are probably the syllabus
-or staff page.
-
+Congrats, you did most of the work required in setting up... essentially the entire site. Assuming there are no changes required from the interface, things like the front page and semester calendar should be working already. Next up are probably the syllabus or staff page.

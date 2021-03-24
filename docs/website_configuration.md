@@ -7,3 +7,4 @@ follow these steps to get the website going.
 ## Setting up the website
 
 1. [Set up course data](configuring/course-data-config.md)
+2. [Set up the UI](configuring/ui-config.md)
