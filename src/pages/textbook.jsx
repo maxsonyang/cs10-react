@@ -57,7 +57,7 @@ function TextbookSections() {
         {
             icon: "keyboard_arrow_right",
             label: "Recursion I",
-            link: "/textbookchaps/recursion_i"
+            link: "../textbookchaps/recursion_i" 
         },
         {
             icon: "keyboard_arrow_right",

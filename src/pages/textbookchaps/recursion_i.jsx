@@ -42,7 +42,7 @@ function TextbookSections() {
         {
             icon: "menu_open",
             label: "Back to Textbook",
-            link: "../textbook"
+            link: "../../textbook"
         },
         {
             icon: "bookmark",
