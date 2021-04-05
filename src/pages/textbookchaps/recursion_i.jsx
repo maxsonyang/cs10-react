@@ -2,9 +2,7 @@ import React from "react";
 import NavigationBar from "../../components/navigation.jsx"
 import "../../styles/sassets/textbook.scss";
 import { Head } from "../../components/head.jsx";
-import { ListGroup } from 'react-bootstrap';
 import { QuickLinkInternal } from "../../components/quick-links.jsx";
-import { Doughnut } from "react-chartjs-2";
 
 // import resources from "../../static/course-data/curriculum/resources.yaml";
 // import { ResourceCell, ResourceCellInternal } from "../components/resources-components/resources-cells.jsx";
@@ -96,6 +94,9 @@ function TextbookBody() {
             {Intro()}
             {TwoParts()}
             {Approaching()}
+            {VsIteration()}
+            {Summary()}
+            {PracticeQs()}
         </div>
     )
 }
@@ -204,7 +205,9 @@ function TwoParts() {
                     function is represented by the ! symbol. 
                 </div>
                 <div className="math">
-                    1! = 1    <br />2! = 2 × 1 = 2    <br />5! = 5 × 4 × 3 × 2 × 1 = 120
+                    1! = 1    <br />
+                    2! = 2 × 1 = 2    <br />
+                    5! = 5 × 4 × 3 × 2 × 1 = 120
                 </div>
                 <div className="body">
                     Factorial is a great example of a function that can be written recursively. Before we even 
@@ -221,14 +224,17 @@ function TwoParts() {
                     You might notice that there is another way we can write this:
                 </div>
                 <div className="math">
-                    4! = 4 × (3 × 2 × 1)<br />    = 4 × 3!
+                    4! = 4 × (3 × 2 × 1)<br />
+                        = 4 × 3!
                 </div>
                 <div className="body">
                     If we continue this for 2!, here’s the whole equation written out:
                 </div>
                 <div className="math">
-                     4! = 4 × 3! <br />                 3! = 3 × 2! <br />                                 
-                    2! = 2 × 1!    <br />                                                 1! = 1
+                     4! = 4 × 3! <br />
+                                     3! = 3 × 2! <br />
+                                                     2! = 2 × 1!    <br />
+                                                                     1! = 1
                 </div>
                 <div className="body">
                     Notice the repeating pattern, which is <em>n</em>! = <em>n</em>  × (<em>n </em>- 1)!,
@@ -265,7 +271,8 @@ function TwoParts() {
                         Okay, this is fine because 0! is 1. Let’s continue:
                     </div>
                     <div className="math">
-                        1! = 1 × 0! <br />                0! = 0 × (-1)!
+                        1! = 1 × 0! <br />
+                                        0! = 0 × (-1)!
                     </div>
                     <div className="body">
                         This is not fine because (-1)! is -1. In order to stop before we get to this point, it 
@@ -384,7 +391,7 @@ function Approaching() {
                         and a boolean.</strong></mainpoint> Here are some examples:<br /><br />
                         <strong>Numbers</strong><br />
                         With numbers, you’ll generally be decrementing the value until you hit 0 or 1, often determined 
-                        by the way you’re recombining the numbers at the end, such as in the factorial example! In 
+                        by the way you’re recombining the numbers at the end, such as in the factorial example. In 
                         these situations, you’ll be best served by these blocks:
                     </div>
                     {/* TODO: IMG */}
@@ -446,61 +453,117 @@ function Approaching() {
     )
 }
 
-
-function ProjectPointsItem(binData) {
-    const project = binData["proj"];
-    const points = binData["points"];
+function VsIteration() {
     return (
-        <ListGroup.Item>
-            <div className="grading-bin">
-                {project}
-                <div className="grade-range">
-                    {`${points}`}
+        <div id="4" className="textbook-topic">
+            <h2>
+                <strong>4</strong>
+            </h2>
+            <h2>
+                Recursion vs Iteration
+            </h2>
+            <div className="textbook-section" >
+                <div className="body">
+                    Outside of math and computer science, you can think of recursion as a specific kind of 
+                    pattern. That’s not to say it’s like polka dots or stripes: rather, a recursive pattern 
+                    is often made because, within one level of a pattern, there is another smaller, but 
+                    generally otherwise identical, level. 
+                </div>
+                <div className="body">
+                    To put it more concretely, consider Russian dolls:
+                </div>
+                {/* TODO: IMG <img src=""/> */}
+                <div className="body">
+                    Within the biggest doll, there is a smaller doll. Within that smaller doll, there is an even 
+                    smaller doll. This continues until you can no longer fit dolls inside the smallest one.
+                </div>
+                {/* TODO: Example icon here */}
+                <div className="body">
+                    If you have heard of the “dream within a dream” concept of the movie Inception, that also 
+                    counts as recursion.
+                </div>
+                {/* TODO: IMG  <img src=""/>*/}
+                <div className="body">
+                    The characters go deeper into the levels of the dream, which is analogous to the smaller 
+                    Russian dolls.
                 </div>
             </div>
-        </ListGroup.Item>
+        </div>
     )
 }
 
-
-function AcademicIntegrity() {
+function Summary() {
     return (
-        <div className="textbook-topic">
-            <h2 id="integrity">
-                Academic Integrity
+        <div id="5" className="textbook-topic">
+            <h2>
+                <strong>5</strong>
             </h2>
-            <div className="textbook-section">
+            <h2>
+                Summary
+            </h2>
+            <div className="textbook-section" >
                 <div className="body">
-                    Cooperation has a limit and in CS10 that limit is copying lines of code or using ideas that 
-                    are not your own code. Projects should be completed and turned in individually unless the 
-                    project calls for a partner. Feel free to discuss the projects with others beforehand; just 
-                    submit your own work in the end. By discussing assignments, we mean talking about high level 
-                    ideas (for example, you may discuss how to debug and clarify the spec questions; you may not 
-                    discuss the solution). Projects are to be completed in groups of 2 or 3, but you may discuss 
-                    them more broadly than with your partner(s). However, you should not be sharing lines of code 
-                    with others or reading code from other people's projects. Write your own programs and keep them 
-                    to yourself.
+                    Outside of math and computer science, you can think of recursion as a specific kind of 
+                    pattern. That’s not to say it’s like polka dots or stripes: rather, a recursive pattern 
+                    is often made because, within one level of a pattern, there is another smaller, but 
+                    generally otherwise identical, level. 
                 </div>
                 <div className="body">
-                    We expect you to hand in your own work, take your own tests, and complete your own projects. The assignments 
-                    and evaluations are structured to help you learn. The course staff works hard to put together this course, 
-                    and we ask in return that you respect the integrity of the course by not misrepresenting your work.
+                    To put it more concretely, consider Russian dolls:
+                </div>
+                {/* TODO: IMG <img src=""/> */}
+                <div className="body">
+                    Within the biggest doll, there is a smaller doll. Within that smaller doll, there is an even 
+                    smaller doll. This continues until you can no longer fit dolls inside the smallest one.
+                </div>
+                {/* TODO: Example icon here */}
+                <div className="body">
+                    If you have heard of the “dream within a dream” concept of the movie Inception, that also 
+                    counts as recursion.
+                </div>
+                {/* TODO: IMG  <img src=""/>*/}
+                <div className="body">
+                    The characters go deeper into the levels of the dream, which is analogous to the smaller 
+                    Russian dolls.
+                </div>
+            </div>
+        </div>
+    )
+}
+
+function PracticeQs() {
+    return (
+        <div id="6" className="textbook-topic">
+            <h2>
+                <strong>6</strong>
+            </h2>
+            <h2>
+                Practice Questions
+            </h2>
+            <div className="textbook-section" >
+                <div className="body">
+                    Outside of math and computer science, you can think of recursion as a specific kind of 
+                    pattern. That’s not to say it’s like polka dots or stripes: rather, a recursive pattern 
+                    is often made because, within one level of a pattern, there is another smaller, but 
+                    generally otherwise identical, level. 
                 </div>
                 <div className="body">
-                    The EECS Department Policy on Academic Dishonesty says, "Copying all or part of another person's 
-                    work, or using reference materials not specifically allowed, are forms of cheating and will not be 
-                    tolerated." The policy statement goes on to explain the penalties for cheating, which range from a zero
-                    grade for the test up to dismissal from the University for a second offense.
+                    To put it more concretely, consider Russian dolls:
                 </div>
+                {/* TODO: IMG <img src=""/> */}
                 <div className="body">
-                    Rather than copying someone else's work, ask for help. You are not alone in this course! The TAs, 
-                    academic interns, and instructor are all here to help you succeed. If you ever need help in this course, 
-                    let us know in person, during office hours, or via email/diviazza.
+                    Within the biggest doll, there is a smaller doll. Within that smaller doll, there is an even 
+                    smaller doll. This continues until you can no longer fit dolls inside the smallest one.
                 </div>
+                {/* TODO: Example icon here */}
                 <div className="body">
-                    If you have any question as to if what you are doing constitutes academic dishonesty, please reach 
-                    out to a staff member. If any academic dishonesty is detected, saying, “I did not know that was academic 
-                    dishonesty,” will not be accepted.
+                    If you have heard of the “dream within a dream” concept of the movie Inception, that also 
+                    counts as recursion.
+                </div>
+                {/* TODO: IMG  <img src=""/>*/}
+                <div className="body">
+                    The characters go deeper into the levels of the dream, which is analogous to the smaller 
+                    Russian dolls.
                 </div>
             </div>
         </div>
