@@ -35,6 +35,18 @@
         "title" : "Intro to Python",
         "google-drive" : "https://drive.google.com/drive/folders/1NwhKPIaMJHujX1Oo1bhYsmnOsqZbYl_s?usp=sharing"
     },
+    "python wk 2" : {
+        "title" : "Python Week 2",
+        "google-drive" : "https://drive.google.com/drive/folders/1A3Mo-1Oyo5qXFy4TPGaRQKaXe_osf_2n?usp=sharing"
+    },
+    "python wk 3" : {
+        "title" : "Python Week 3",
+        "google-drive" : "https://drive.google.com/drive/folders/1bwDIUtaXAY8JD5Mz75PLnqbPJatT4PPP?usp=sharing"
+    },
+    "break" : {
+        "title" : "Break -- No Section!",
+        "google-drive" : null
+    },
     "placeholder" : {
         "title" : null,
         "google-drive" : null

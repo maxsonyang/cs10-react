@@ -1,12 +1,17 @@
 import React from "react";
 import NavigationBar from "../components/navigation.jsx"
-import "../styles/sassets/syllabus.scss";
+import "../styles/sassets/textbook.scss";
 import { Head } from "../components/head.jsx";
 import { ListGroup } from 'react-bootstrap';
 import { QuickLinkInternal } from "../components/quick-links.jsx";
 import { Doughnut } from "react-chartjs-2";
 
-class SyllabusPage extends React.Component {
+// import resources from "../../static/course-data/curriculum/resources.yaml";
+// import { ResourceCell, ResourceCellInternal } from "../components/resources-components/resources-cells.jsx";
+// import { ResourceNavigation } from "../components/resources-components/resource-nav.jsx";
+// import { DynamicContentComponent, ResourceSection, ResourceCategory } from "../components/resources-components/resource-body.jsx";
+
+class TextbookPage extends React.Component {
 
     render() {
         return (
@@ -15,11 +20,11 @@ class SyllabusPage extends React.Component {
                 <NavigationBar />
                 <div className="container-fluid">
                     <h1>
-                        Syllabus
+                        Textbook
                     </h1>
-                    <div className="syllabus-component">
-                        {SyllabusSections()}
-                        {SyllabusBody()}
+                    <div className="textbook-component">
+                        {TextbookSections()}
+                        {TextbookBody()}
                     </div>
                 </div>
             </div>
@@ -32,51 +37,51 @@ class SyllabusPage extends React.Component {
     Handles the actual logic of what should be displayed and how.
 */
 
-function SyllabusSections() {
+function TextbookSections() {
     let sections = [
         {
-            icon: "trip_origin",
-            label: "Overview",
-            link: "#overview"
+            icon: "menu",
+            label: "Home",
+            link: null
         },
         {
-            icon: "group",
-            label: "Sections",
-            link: "#sections"
+            icon: "keyboard_arrow_right",
+            label: "Abstraction",
+            link: null
         },
         {
-            icon: "school",
-            label: "Staff",
-            link: "#staff"
+            icon: "keyboard_arrow_right",
+            label: "Higher Order Functions",
+            link: null
         },
         {
-            icon: "leaderboard",
-            label: "Grading",
-            link: "#grading"
+            icon: "keyboard_arrow_right",
+            label: "Recursion I",
+            link: "../textbookchaps/recursion_i" 
         },
         {
-            icon: "laptop",
-            label: "Technologies",
-            link: "#course-tech"
+            icon: "keyboard_arrow_right",
+            label: "Recursion II",
+            link: null
         },
         {
-            icon: "security",
-            label: "Integrity",
-            link: "#integrity"
+            icon: "keyboard_arrow_right",
+            label: "Fractals",
+            link: null
         }
     ]
 
     let links = sections.map(section => QuickLinkInternal(section.icon, section.label, section.link))
     return (
-        <div className="syllabus-nav">
+        <div className="textbook-nav">
             {links}
         </div>
     )
 }
 
-function SyllabusBody() {
+function TextbookBody() {
     return (
-        <div className="syllabus-body">
+        <div className="textbook-body">
             {CourseOverview()}
             {Sections()}
             {Staff()}
@@ -88,18 +93,18 @@ function SyllabusBody() {
 }
 
 /*
-    Individual Components of the Syllabus are located here.
+    Individual Components of the Textbook are located here.
     Edit these if you only want to change the content.
-    All sections should subclass Syllabus Section and have a unique id.
+    All sections should subclass Textbook Section and have a unique id.
 */
 
 function CourseOverview() {
     return (
-        <div id="overview" className="syllabus-topic">
+        <div id="overview" className="textbook-topic">
             <h2>
                 Overview
             </h2>
-            <div className="syllabus-section" >
+            <div className="textbook-section" >
                 <div className="header">
                     Welcome!
                 </div>
@@ -112,7 +117,7 @@ function CourseOverview() {
                     This course allows time conflicts!
                 </div>
             </div>
-            <div className="syllabus-section">
+            <div className="textbook-section">
                 <div className="header">
                     Collaboration, Not Competition
                 </div>
@@ -127,7 +132,7 @@ function CourseOverview() {
                     adjustments if the GPA of the class is below the department suggested range, so we might adjust 
                     your score up, but it’ll never be adjusted down).
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         Flexibility and Community
                     </div>
@@ -141,7 +146,7 @@ function CourseOverview() {
                             or homework. We believe we have built all of that into our class this semester.
                         </div>
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         Synchronous and Asynchronous Learning
                     </div>
@@ -163,11 +168,11 @@ function CourseOverview() {
 
 function Sections() {
     return (
-        <div id="sections" className="syllabus-topic">
+        <div id="sections" className="textbook-topic">
             <h2>
                 Sections
             </h2>
-            <div className="syllabus-section" >
+            <div className="textbook-section" >
                 <div className="header">
                     Course Elements
                 </div>
@@ -175,7 +180,7 @@ function Sections() {
                     We have a few different components to this course, all of which we have 
                     tried to optimize for online learning.
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         Lectures
                     </div> 
@@ -189,7 +194,7 @@ function Sections() {
                         The live session wil also be recorded.
                     </div>
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         Lab
                     </div> 
@@ -200,7 +205,7 @@ function Sections() {
                         (i.e. synchronously). If you are unable to attend any of the sections, please contact Shannon.
                     </div>
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         Discussion
                     </div> 
@@ -210,7 +215,7 @@ function Sections() {
                         mandatory.
                     </div>
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         Check-ins
                     </div> 
@@ -227,12 +232,12 @@ function Sections() {
 
 function Staff() {
     return (
-        <div id="staff" className="syllabus-topic">
+        <div id="staff" className="textbook-topic">
             <h2>
                 Staff
             </h2>
-            <div className="syllabus-section">
-                <div className="syllabus-subsection">
+            <div className="textbook-section">
+                <div className="textbook-subsection">
                     <div className="header">
                         Head Teaching Assistants
                     </div>
@@ -241,7 +246,7 @@ function Staff() {
                             you do not know who to reach out to. For any high-level course questions, reach out to either before Dan.
                     </div>
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         Lead Teaching Assistants
                     </div>
@@ -251,7 +256,7 @@ function Staff() {
                         Development). </strong>
                     </div>
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         Lab Teaching Assistants
                     </div>
@@ -259,7 +264,7 @@ function Staff() {
                         Bryant Bettencourt, Shannon Hearn, and Lam Pham. Please reach out to your individual assigned TA for lab-specific questions.
                     </div>
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         Discussion Teaching Assistants
                     </div>
@@ -267,7 +272,7 @@ function Staff() {
                         Andrew Burke, Dani Swords, and Yolanda Shen. Please reach out to your individual assigned TA for discussion-specific questions.
                     </div>
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         Readers
                     </div>
@@ -276,7 +281,7 @@ function Staff() {
                         Taroob Zia, and Sarah Varghese</strong>. 
                     </div>
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         Tutors
                     </div>
@@ -294,12 +299,12 @@ function Staff() {
 
 function Technology() {
     return (
-        <div id="course-tech" className="syllabus-topic">
+        <div id="course-tech" className="textbook-topic">
             <h2>
                 Course Technologies
             </h2>
-            <div className="syllabus-section">
-                <div className="syllabus-subsection">
+            <div className="textbook-section">
+                <div className="textbook-subsection">
                     <div className="header">
                         Zoom
                     </div>
@@ -307,7 +312,7 @@ function Technology() {
                         The primary medium for all synchronous portions of the course, such as discussion and Dan's live sessions.
                     </div>
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         Google Drive + Youtube
                     </div>
@@ -315,7 +320,7 @@ function Technology() {
                         We will release recordings for the course via this platform.
                     </div>
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         Piazza
                     </div>
@@ -323,7 +328,7 @@ function Technology() {
                         The class forum for all questions and communication regarding the course.
                     </div>
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         Gradescope
                     </div>
@@ -331,7 +336,7 @@ function Technology() {
                         This is where assignments will be turned in and graded.
                     </div>
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         PrairieLearn
                     </div>
@@ -339,7 +344,7 @@ function Technology() {
                         This is where lecture questions will be located. It is also where exams will be taken.
                     </div>
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         Discord
                     </div>
@@ -348,7 +353,7 @@ function Technology() {
                         and communicate with course staff as well as other students. Labs will be held via Discord.
                     </div>
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         This website!
                     </div>
@@ -364,8 +369,8 @@ function Technology() {
 function Grading() {
 
     return (
-        <div id="grading" className="syllabus-topic">
-            <div className="syllabus-section">
+        <div id="grading" className="textbook-topic">
+            <div className="textbook-section">
                 <div className="header">
                     Grading Scheme
                 </div>
@@ -374,7 +379,7 @@ function Grading() {
                     The grading breakdown and bins can be found below.
                 </div>
             </div>
-            <div className="syllabus-section">
+            <div className="textbook-section">
                 <div className="header">
                     Grading Breakdown
                 </div>
@@ -383,7 +388,7 @@ function Grading() {
                 </div>
                 
             </div>
-            <div className="syllabus-section">
+            <div className="textbook-section">
                 <div className="header">
                     Project Points Breakdown
                 </div>
@@ -391,24 +396,24 @@ function Grading() {
                     {ProjectBreakdown()}
                 </div>
             </div>
-            <div className="syllabus-section">
+            <div className="textbook-section">
                 <div className="header">
                     Grading Ranges
                 </div>
                 <div className="body">
                     We will award the following grades based on the following point ranges:
-                    <div className="syllabus-subsection">
+                    <div className="textbook-subsection">
                         <div className="body">
                             {GradingBins()}
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="syllabus-section">
+            <div className="textbook-section">
                 <div className="header">
                     Grading Policies
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         Slip Days and Late Policy
                     </div>
@@ -425,7 +430,7 @@ function Grading() {
                         way that maximizes your overall course grade.
                     </div>
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         Clobber Policy
                     </div>
@@ -439,7 +444,7 @@ function Grading() {
                         to unforeseen circumstances, you will be able to receive a grade for the exams.
                     </div>
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         Pass/No Pass Grading
                     </div>
@@ -450,7 +455,7 @@ function Grading() {
                         meaningful effort. This includes: project 1-6, lab check-offs, as well as the quest, midterm, and final.
                     </div>
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         Resubmission Policy
                     </div>
@@ -467,7 +472,7 @@ function Grading() {
                         only be counted if it affects your final grade at the end of the semester.
                     </div>
                 </div>
-                <div className="syllabus-subsection">
+                <div className="textbook-subsection">
                     <div className="header">
                         EPA - Effort, Participation, Altruism
                     </div>
@@ -649,11 +654,11 @@ function GradingBinItem(binData) {
 
 function AcademicIntegrity() {
     return (
-        <div className="syllabus-topic">
+        <div className="textbook-topic">
             <h2 id="integrity">
                 Academic Integrity
             </h2>
-            <div className="syllabus-section">
+            <div className="textbook-section">
                 <div className="body">
                     Cooperation has a limit and in CS10 that limit is copying lines of code or using ideas that 
                     are not your own code. Projects should be completed and turned in individually unless the 
@@ -691,4 +696,4 @@ function AcademicIntegrity() {
     )
 }
 
-export default SyllabusPage;
+export default TextbookPage;

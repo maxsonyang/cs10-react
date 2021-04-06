@@ -187,16 +187,12 @@
     },
     "python1" : {
         "title" : "Intro to Python",
-        "worksheet" : null,
-        "solutions" : null,
+        "worksheet" : "https://drive.google.com/file/d/1K0YBq6JkOqjfpdtYT9oly9bhzH6PwZpP/view?usp=sharing",
+        "solutions" : "https://drive.google.com/file/d/1_bj0YynEotDWtVjfb_1RQihmd9lMm1h5/view?usp=sharing",
         "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
-        "recording" : null,
+        "recording" : "https://www.youtube.com/watch?v=yjkOKNNTUCA",
         "live-recording": null,
         "resources" : [
-            {
-                "title" : "Kahoot!",
-                "link" : "https://create.kahoot.it/share/discussion-9-intro-to-python/9086a47f-7b3b-4f0f-985a-1112f06fcc9e"
-            },
             {
                 "title" : "Python Cheat Sheet",
                 "link" : "https://docs.google.com/document/d/119yepX72fEf6c4Dd8ZT6bl22pZa0ZMCionJE86Ktw8Y/edit?usp=sharing"
@@ -225,12 +221,16 @@
     },
     "python2" : {
         "title" : "Data Structures in Python",
-        "worksheet" : null,
-        "solutions" : null,
+        "worksheet" : "https://drive.google.com/file/d/1dzfgUWryAPw5obI78qbA3vgjQFcVXH4Y/view?usp=sharing",
+        "solutions" : "https://drive.google.com/file/d/1e9JSZ3CoXk0Jdqhr8XiCNM2tWLt_uyti/view?usp=sharing",
         "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
-        "recording" : null,
-        "live-recording": null,
+        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MJcrnzWJlLzWNjab39-uswG",
+        "live-recording": "https://drive.google.com/drive/folders/1Qo6IgLyM0xBKvgoM95VF-oCOg9GYoRe4?usp=sharing",
         "resources" : [
+            {
+                "title" : "OOP Demo",
+                "link" : "https://drive.google.com/file/d/1DQLGl25x8WlSccLAZUsgvhdSnW4Xkcg9/view?usp=sharing"
+            },
             {
                 "title" : "Extra Dictionary Problems",
                 "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/jkznd4vgw2k2c8/hzd1kyj0qc02c7/jojnuxcab8i8/questions.py"
@@ -521,5 +521,14 @@
                 "link" : "https://www.edureka.co/blog/self-in-python/#:~:text=The%20self%20is%20used%20to,attributes%20with%20the%20given%20arguments.&text=In%20Python%2C%20we%20have%20methods,automatically%2C%20but%20not%20received%20automatically."
             }
         ]
+    },
+    "break" : {
+        "title" : "Break -- No Section",
+        "worksheet" : null,
+        "solutions" : null,
+        "slides" : null,
+        "recording" : null,
+        "live-recording" : null,
+        "resources" : []
     }
 }

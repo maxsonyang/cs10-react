@@ -158,9 +158,11 @@
 
 10:
   lectures: []
-  live-sessions: []
+  live-sessions:
+    - break
   labs: []
-  discussion: []
+  discussion: 
+    - break
   projects: []
   readings: []
   dans-oh:
@@ -170,7 +172,8 @@
   lectures:
     - python three
     - python four
-  live-sessions: []
+  live-sessions: 
+    - python wk 2
   labs:
     - oop
     - textProcessing
@@ -187,7 +190,8 @@
   lectures:
     - social implications three
     - python five
-  live-sessions: []
+  live-sessions: 
+    - python wk 3
   labs:
     - dataScience
     - libraries
